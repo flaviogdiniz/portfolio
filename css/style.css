@@ -1,0 +1,73 @@
+
+/*Estilo geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #1B2029;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Estilo do cabeçalho */
+
+header {
+    padding: 20px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+}
+
+.logo span {
+    color: #006C5D;
+}
+
+header a {
+    color: #fff;
+    text-decoration:  none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #006C5D;
+    transform: scale(1.05);
+}
+
+
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #00AE8B;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
